@@ -33,5 +33,6 @@ description: 按学习目标和知识地图出题，用于自测或生成复习�
 
 1. 用户若要自测：一次出少量题，等回答，再讲评。
 2. 用户若只要题单：只给问题，把要点留在文件里。
-3. 用户若要变成卡片：转 `templates/card.md`，交给 `spaced-repetition`。
+3. 用户若要变成卡片：转 `templates/card.md`（含 `consecutive_success: 0`），交给 `spaced-repetition`。
 4. 用户若要正式验收：停出题，改走 `feynman-exam`。
+5. 出题和自测都不改巩固态，也不改画像。

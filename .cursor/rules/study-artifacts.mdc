@@ -13,3 +13,6 @@ alwaysApply: false
 - 不要删除用户已写的笔记、讲解稿或复习记录；只追加或明确修订。
 - `sessions/` 只放当次过程；可长期复用的笔记、卡片、来源放到 `knowledge/<topic>/`。
 - 卡片正面是提示，不要把完整标准答案写进 `prompt`。
+- 改卡片 `due` / `last_result` / `consecutive_success` 后，立刻回写 `_index.md` 该行的到期、逾期、巩固态。
+- 画像等级必须能指回 `_index.md` 的 `stable` 主题；指不回就不要改 `profile.md`。
+- 改了 `profile.md` 的一句话或维度，必须追加 `profile-history.md`。

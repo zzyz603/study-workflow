@@ -21,3 +21,5 @@ sessions/<YYYY-MM-DD>-<topic-slug>/
 3. 验收结束 → 写 `exam.md`
 4. 达标或用户要求沉淀 → 把稳定内容拷入 `knowledge/<topic>/`
 5. 未达标 → 目录保留，下次补学仍读这份 `plan.md` 和 `exam.md`
+
+开始任何学习前，Agent 应先读 `knowledge/_index.md` 做到期提醒。提醒本身不在 `sessions/` 里新建目录。

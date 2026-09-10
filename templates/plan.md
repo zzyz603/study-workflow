@@ -4,6 +4,8 @@
 - 会话目录：`sessions/<YYYY-MM-DD>-<topic-slug>/`
 - 日期：
 - 阶段：planning
+- 维度：计算机基础 / 后端工程 / AI
+- 巩固策略：fast
 - 目标掌握等级：L2 / L3 / L4
 
 ## 学习目标

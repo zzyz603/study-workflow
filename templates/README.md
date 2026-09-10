@@ -10,3 +10,5 @@ Agent 写学习产物时先复制对应模板，再填内容。不要另起标�
 | `card.md` | `knowledge/<topic>/cards.md` 中的单卡 |
 | `source.md` | `knowledge/<topic>/sources.md` 中的单条来源 |
 | `review-log.md` | `knowledge/<topic>/review.md` 中的单次复习 |
+| `profile.md` | `knowledge/profile.md` |
+| `profile-history.md` | `knowledge/profile-history.md` 中的一条记录 |

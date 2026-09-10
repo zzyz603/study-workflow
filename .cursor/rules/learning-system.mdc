@@ -14,4 +14,6 @@ alwaysApply: true
 - 验收结束时，用 `templates/exam.md` 写入同目录 `exam.md`。
 - 达到可接受掌握或用户要求沉淀时，写入 `knowledge/<topic>/`。
 - 拆书、费曼验收、间隔复习、出题分别使用 `.cursor/skills/` 下对应 skill。
+- 每次用户开口：先读 `knowledge/_index.md`。有到期或逾期时，按主题提醒一次并让用户选「先复习 / 继续当前事」。不自动开考。一次对话只提一次。
+- 验收过关只把主题标为 `fragile`，不改 `profile.md` 的一句话。画像升级看该维度 `stable` 主题。
 - 改工作流、脚本或 skill 时读 `DESIGN.md`；普通学习会话不必展开它。
