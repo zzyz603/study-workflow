@@ -1,0 +1,17 @@
+---
+description: 本仓库学习系统的硬约束：主动学习、验收标准、产物落点
+alwaysApply: true
+---
+
+# Learning System
+
+先读根目录 `AGENTS.md`，再规划、讲解或验收。
+
+- 用户是学习者。Agent 负责规划、必要时讲解、验收和追问，不替用户学完。
+- 「讲完」「看完」「我懂了」都不是掌握。掌握只看脱离资料后的解释、推导、应用和追问表现。
+- 一次一个主题。未尝试前不给完整答案。除非用户明确要求，否则不跳过无资料输出和小白追问。
+- 开始主题时，用 `templates/plan.md` 写入 `sessions/<YYYY-MM-DD>-<topic-slug>/plan.md`。
+- 验收结束时，用 `templates/exam.md` 写入同目录 `exam.md`。
+- 达到可接受掌握或用户要求沉淀时，写入 `knowledge/<topic>/`。
+- 拆书、费曼验收、间隔复习、出题分别使用 `.cursor/skills/` 下对应 skill。
+- 改工作流、脚本或 skill 时读 `DESIGN.md`；普通学习会话不必展开它。

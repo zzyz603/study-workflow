@@ -1,0 +1,15 @@
+---
+description: 改工作流、脚本、skill 或模板时遵循 DESIGN.md
+globs: "{DESIGN.md,scripts/**,.cursor/skills/**,templates/**}"
+alwaysApply: false
+---
+
+# Workflow Design
+
+改这些文件前先读根目录 `DESIGN.md`。
+
+- 同样输入必须同样结果 → 程序 / 模板，不要写进 skill 让模型即兴做。
+- 取决于用户原话含义 → AI skill，不要做成死脚本。
+- 真正学习发生在用户身上 → 不要自动化自学和开考。
+- 阶段只通过脚本迁移；AI 可以建议，不能手改 `state` 绕过门禁。
+- `study-session` 只调度，不实现建目录、校验和间隔计算。

@@ -1,0 +1,15 @@
+---
+description: knowledge、sessions、templates 中学习产物的写法
+globs: "{knowledge,sessions,templates}/**/*.md"
+alwaysApply: false
+---
+
+# Study Artifacts
+
+编辑这些文件时：
+
+- 先对照 `templates/` 中的对应模板，再改内容；不要另起一套结构。
+- 掌握等级必须来自验收表现，不要按学习时长或阅读量填写。
+- 不要删除用户已写的笔记、讲解稿或复习记录；只追加或明确修订。
+- `sessions/` 只放当次过程；可长期复用的笔记、卡片、来源放到 `knowledge/<topic>/`。
+- 卡片正面是提示，不要把完整标准答案写进 `prompt`。
