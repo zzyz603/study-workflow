@@ -8,7 +8,7 @@
 
 | 主题 | 目录 | 维度 | 目标 | 等级 | 巩固 | 策略 | 到期 | 逾期 | 状态 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| （尚无） | | | | | none | fast | — | 0 | |
+| TCP/IP 分层模型与数据封装 | tcp-ip-layers | 计算机基础 | L2 | — | none | fast | — | 0 | learning |
 
 维度用：`计算机基础` / `后端工程` / `AI`。  
 状态用：`planning` / `learning` / `examining` / `remedial` / `retained`。
